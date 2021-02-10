@@ -5,4 +5,10 @@
     <string name="text_name">Ashalina Zahira Dinda</string>
     <string name="search">Search</string>
     <string name="text_explain">What do you need?</string>
+    <string name="calming_sounds">Calming Sounds</string>
+    <string name="sleep_tracker">Sleep Tracker</string>
+    <string name="hospital_tracker">Hospital Tracker</string>
+    <string name="health_information">Health Information</string>
+    <string name="medical_supply">Medical Supply</string>
+    <string name="calming_sound">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</string>
 </resources>
