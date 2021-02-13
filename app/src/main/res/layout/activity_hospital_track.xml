@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_16dp"
+    tools:context=".HospitalTrackActivity">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/ib_arrow"
+                android:layout_width="@dimen/_30dp"
+                android:layout_height="@dimen/_30dp"
+                android:layout_marginTop="@dimen/_3dp"
+                android:background="@color/white"
+                android:src="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/tv_calming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/hospital_tracker"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_25sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_yoga_calm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30dp"
+            android:layout_marginTop="@dimen/_35dp"
+            android:src="@drawable/black_hospital"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <TextView
+            android:id="@+id/tv_hospital"
+            android:layout_width="@dimen/_202dp"
+            android:layout_height="@dimen/_59dp"
+            android:layout_marginStart="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_58dp"
+            android:text="@string/calming_desc"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sp"
+            app:layout_constraintStart_toEndOf="@+id/iv_yoga_calm"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <ImageView
+        android:id="@+id/iv_back_search"
+        android:layout_width="@dimen/_384dp"
+        android:layout_height="@dimen/_170dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hospital"
+        app:srcCompat="@drawable/background_search"/>
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_70dp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_back_search"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="@+id/iv_back_search"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hospital"
+        app:srcCompat="@drawable/ic_black_search" />
+
+    <TextView
+        android:id="@+id/tv_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8dp"
+        android:layout_marginTop="@dimen/_70dp"
+        android:text="@string/search"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_back_search"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toEndOf="@+id/iv_search"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hospital" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/_33dp"
+        android:layout_height="@dimen/_25dp"
+        android:layout_marginStart="@dimen/_28dp"
+        android:layout_marginTop="@dimen/_40dp"
+        android:background="@drawable/text_background"
+        android:gravity="center"
+        android:text="@string/text_all"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_search" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_25dp"
+        android:layout_marginStart="@dimen/_52dp"
+        android:layout_marginTop="@dimen/_40dp"
+        android:gravity="center"
+        android:text="@string/text_near_you"
+        android:textColor="@color/blue_main"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_search" />
+
+    <TextView
+        android:id="@+id/recommended"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_25dp"
+        android:layout_marginStart="@dimen/_52dp"
+        android:layout_marginTop="@dimen/_40dp"
+        android:gravity="center"
+        android:text="@string/text_recommended"
+        android:textColor="@color/blue_main"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_search" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

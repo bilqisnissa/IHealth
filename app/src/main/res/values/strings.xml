@@ -7,8 +7,15 @@
     <string name="text_explain">What do you need?</string>
     <string name="calming_sounds">Calming Sounds</string>
     <string name="sleep_tracker">Sleep Tracker</string>
-    <string name="hospital_tracker">Hospital Tracker</string>
     <string name="health_information">Health Information</string>
+    <string name="calming_desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</string>
+    <string name="hospital_tracker">Hospital Tracker</string>
+    <string name="text_all">All</string>
+    <string name="text_near_you">Near You</string>
+    <string name="text_recommended">Recommended</string>
+    <string name="rsud_kota_bogor">RSUD Kota Bogor</string>
+    <string name="bogor">Bogor</string>
+    <string name="rs_karya_bhakti_pratiwi">RS Karya Bhakti Pratiwi</string>
+    <string name="health_infromation">Health Infromation</string>
     <string name="medical_supply">Medical Supply</string>
-    <string name="calming_sound">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</string>
 </resources>
