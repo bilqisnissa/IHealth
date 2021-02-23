@@ -15,7 +15,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageButton
-                android:id="@+id/ib_arrow"
+                android:id="@+id/ib_arrow_ht"
                 android:layout_width="@dimen/_30dp"
                 android:layout_height="@dimen/_30dp"
                 android:layout_marginTop="@dimen/_3dp"
@@ -48,7 +48,7 @@
             android:layout_height="@dimen/_59dp"
             android:layout_marginStart="@dimen/_20dp"
             android:layout_marginTop="@dimen/_58dp"
-            android:text="@string/calming_desc"
+            android:text="@string/hospital_track_desc"
             android:textColor="@color/black"
             android:textSize="@dimen/_15sp"
             app:layout_constraintStart_toEndOf="@+id/iv_yoga_calm"
@@ -124,6 +124,41 @@
         android:textColor="@color/blue_main"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/tv_search" />
+
+    <ImageView
+        android:id="@+id/rsud_bogor"
+        android:layout_width="189dp"
+        android:layout_height="191dp"
+        android:src="@drawable/rsud_bogor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_back_search" />
+
+    <ImageView
+        android:id="@+id/rs_kbp"
+        android:layout_width="208dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/rsud_bogor"
+        app:layout_constraintTop_toBottomOf="@+id/recommended"
+        app:srcCompat="@drawable/rs_karya_bhakti" />
+
+    <ImageView
+        android:id="@+id/rs_bmc"
+        android:layout_width="189dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rsud_bogor"
+        app:srcCompat="@drawable/bogor_medical" />
+
+    <ImageView
+        android:id="@+id/rs_azra"
+        android:layout_width="208dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/rs_bmc"
+        app:layout_constraintTop_toBottomOf="@+id/rs_kbp"
+        app:srcCompat="@drawable/rs_azra" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,7 +24,8 @@
             android:layout_height="@dimen/_30dp"
             android:layout_marginTop="@dimen/_3dp"
             android:background="@color/white"
-            android:src="@drawable/ic_arrow_back" />
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="@string/image_view" />
 
         <TextView
             android:id="@+id/tv_medical_supply"
@@ -52,7 +53,7 @@
         android:layout_height="@dimen/_59dp"
         android:layout_marginStart="@dimen/_20dp"
         android:layout_marginTop="@dimen/_45dp"
-        android:text="@string/calming_desc"
+        android:text="@string/medical_supply_desc"
         android:textColor="@color/black"
         android:textSize="@dimen/_15sp"
         app:layout_constraintStart_toEndOf="@+id/iv_supplies"
@@ -102,6 +103,7 @@
         tools:layout_editor_absoluteX="0dp">
 
         <ImageView
+            android:id="@+id/iv_mask"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/mask"
