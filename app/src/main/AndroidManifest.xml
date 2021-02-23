@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IHealthApplication">
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".SleepTrackerActivity"></activity>
+        <activity android:name=".ProfileActivity" />
         <activity android:name=".Onboarding3Activity" />
         <activity android:name=".Onboarding2Activity" />
         <activity android:name=".Onboarding1Activity" />
@@ -31,7 +32,7 @@
         <activity android:name=".HealthInfoActivity" />
         <activity android:name=".HospitalTrackActivity" />
         <activity android:name=".CalmingSoundsActivity" />
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

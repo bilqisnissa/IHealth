@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
         supportActionBar?.hide()
         cv1.setOnClickListener(this)
+        cv2.setOnClickListener(this)
         cv3.setOnClickListener(this)
         cv4.setOnClickListener(this)
         cv5.setOnClickListener(this)
@@ -27,14 +28,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(p0: View) {
         when(p0.id){
             R.id.cv1 -> startActivity(Intent(CalmingSoundsActivity.getLaunchService(this)))
-        }
-        when(p0.id){
+            R.id.cv2 -> startActivity(Intent(SleepTrackerActivity.getLaunchService(this)))
             R.id.cv3 -> startActivity(Intent(HospitalTrackActivity.getLaunchService(this)))
-        }
-        when(p0.id){
             R.id.cv4 -> startActivity(Intent(HealthInfoActivity.getLaunchService(this)))
-        }
-        when(p0.id){
             R.id.cv5 -> startActivity(Intent(MedicalSupplyActivity.getLaunchService(this)))
         }
     }

@@ -67,4 +67,6 @@
     <string name="medical_supply_desc">Buy your medical needs and other health needs that we have provided, guaranteed safe, and reliable</string>
     <string name="health_info_desc">Trusted information about health information that you can read at any time</string>
     <string name="hospital_track_desc">You don\'t have to worry about finding a trusted hospital that close to your location</string>
+    <string name="sleep_tracker_desc">With the sleep tracker, your sleep time becomes more organized, so you don\'t forget your health</string>
+    <string name="btn_start_tracking">Start Tracking</string>
 </resources>
